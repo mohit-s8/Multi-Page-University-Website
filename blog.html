@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global University</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css"> -->
+    <link rel="stylesheet"
+        href=" https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+    </section>
+
+    <!-- ..................Blog Page content.................. -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./img/certificate.jpg" alt="">
+                <h1>Our Certificate & Online Programs For 2021</h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio et dolores ea voluptas perferendis quia! At ducimus quasi velit quos?Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit nulla id blanditiis laborum explicabo consectetur consequuntur expedita porro eos.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur minus, maiores veritatis veniam, corporis laboriosam aut assumenda expedita impedit totam, molestiae culpa.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit nulla id blanditiis laborum explicabo consectetur consequuntur expedita porro eos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit nulla id blanditiis laborum explicabo consectetur consequuntur expedita porro eos. Saepe exercitationem suscipit ipsum eveniet possimus mollitia fugit voluptate omnis expedita necessitatibus quibusdam fugiat, eligendi ex perferendis esse provident quia, laborum optio nulla similique libero! In, ut.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugit dignissimos vero non, deserunt sapiente, officiis ullam explicabo voluptatibus nesciunt consequatur reprehenderit repudiandae harum optio maxime perspiciatis minus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit nulla id blanditiis laborum explicabo consectetur consequuntur expedita porro eos. Eveniet quia nihil magnam ad nam maiores quidem quae totam, sed incidunt ullam, minus atque doloribus aut ut dolor consequatur assumenda sint?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit nulla id blanditiis laborum explicabo consectetur consequuntur expedita porro eos.Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero suscipit nulla id blanditiis laborum explicabo consectetur consequuntur expedita porro eos.</p>
+            </div>
+            <div class="blog-right">
+                <h3>Post categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>44</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ................Footer................ -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptas quibusdam omnis saepe corporis
+            quod odit dolore nihil eligendi <br> earum perferendis magni, dolorum, eos aperiam ipsum non iure enim nam?
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

@@ -32,7 +32,7 @@ This repository contains the code for a comprehensive university website with mu
 
 2. Navigate to the project directory:
    ```
-   cd university-website
+   cd Multi-Page-University-Website
    ```
 
 3. Open the `index.html` file in your preferred web browser to view the website locally.

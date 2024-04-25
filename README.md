@@ -27,7 +27,7 @@ This repository contains the code for a comprehensive university website with mu
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/mohit-s8/Multi-Page-University-Website.git
+   git clone https://github.com/mohit89s/Multi-Page-University-Website.git
    ```
 
 2. Navigate to the project directory:
